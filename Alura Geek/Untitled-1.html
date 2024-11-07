@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>❤️💛💜 AluraGeek</h1>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Formulario para agregar productos -->
+        <section class="form-section">
+            <h2>Agregar Producto:</h2>
+            <form id="product-form">
+                <input type="text" placeholder="Nombre..." name="name" required>
+                <input type="number" placeholder="Precio..." name="price" required>
+                <input type="text" placeholder="Imagen..." name="image" required>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </form>
+        </section>
+
+        <!-- Sección de productos -->
+        <section class="products-section">
+            <h2>Mis Productos:</h2>
+            <div id="product-list"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>❤️💛💜 AluraGeek</p>
+        <p>Desarrollado por [Tu Nombre]</p>
+        <p>Alura Latam - 2024</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
